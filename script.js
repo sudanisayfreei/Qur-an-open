@@ -1,4 +1,4 @@
-const cards = [...document.querySelectorAll(".recitation-card")];
+const cards = [...document.querySelectorAll("#وردك .recitation-card")];
 const progressCount = document.querySelector("#progress-count");
 const progressFill = document.querySelector("#progress-fill");
 const audioPanel = document.querySelector("#audio-panel");
@@ -20,6 +20,16 @@ const audioSegments = {
     { type: "surah", id: 113 },
     { type: "surah", id: 114 },
   ],
+  "rizq-nuh": [
+    { type: "ayah", id: "71:10" },
+    { type: "ayah", id: "71:11" },
+    { type: "ayah", id: "71:12" },
+  ],
+  "rizq-talaq": [
+    { type: "ayah", id: "65:2" },
+    { type: "ayah", id: "65:3" },
+  ],
+  "rizq-jumuah": [{ type: "ayah", id: "62:10" }],
 };
 
 function readProgress() {

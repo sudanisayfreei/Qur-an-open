@@ -55,6 +55,12 @@ a {
   text-decoration: none;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .brand {
   font-size: 19px;
   font-weight: 700;
@@ -466,6 +472,29 @@ p {
   margin: 13px 0 0;
   color: #929b95;
   font-size: 11px;
+}
+
+.rizq-section {
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+
+.rizq-intro {
+  margin: -11px 0 18px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.rizq-note {
+  margin: 14px 0 0;
+  padding: 14px 16px;
+  border-right: 3px solid var(--gold);
+  border-radius: 5px;
+  background: #f0eee6;
+  color: #66736c;
+  font-size: 12px;
+  line-height: 1.9;
 }
 
 .reminder {
